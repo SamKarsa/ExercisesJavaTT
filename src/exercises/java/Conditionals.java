@@ -9,6 +9,7 @@ import java.util.Scanner;
 /**
  *
  * @author SamKarsa
+ * @description Ejmplos de condicionales en Java
  */
 public class Conditionals {
 

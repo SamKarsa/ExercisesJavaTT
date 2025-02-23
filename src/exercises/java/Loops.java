@@ -8,6 +8,7 @@ import java.util.Scanner;
 /**
  *
  * @author SamKarsa
+ * @description Ejmplo de ciclos en Java
  */
 public class Loops {
     public static void main(String[] args) {

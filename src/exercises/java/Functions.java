@@ -8,6 +8,7 @@ import java.util.Scanner;
 /**
  *
  * @author SamKarsa
+ * @description Ejmplo de funciones en Java.
  */
 public class Functions {
 //3

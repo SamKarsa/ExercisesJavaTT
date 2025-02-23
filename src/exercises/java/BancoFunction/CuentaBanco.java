@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  *
  * @author SamKarsa
+ * @description Ejmplo de como funciona POO en Java
  */
 public class CuentaBanco {
     // Funciones:
