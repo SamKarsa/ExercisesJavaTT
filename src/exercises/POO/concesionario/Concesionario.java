@@ -10,6 +10,7 @@ import java.util.Scanner;
 /**
  *
  * @author SamKarsa
+ * @change 
  */
 public class Concesionario {
     /**
@@ -78,24 +79,28 @@ public class Concesionario {
         //Instanciamos clases
         Concesionario concesionario = new Concesionario();
         
-        //Hacemos interfaz 
-        System.out.print("1. Registrar a un cliente\n2. Registrar a un vendedor\n3. Registrar un vehiculo\n4. Salir\nSelecciona una opcion: ");
-        opcion = scanner.nextInt();
         
-        switch(opcion){
-            case 1:
-                DatosCliente();
-                break;
-            case 2:
-                DatosVendedor();
-                break;
-            case 3:
-                DatosVehiculos();
-                break;
-            case 4:
-                break;
-            default :
-                break;
+        while(true){
+             //Hacemos interfaz 
+            System.out.print("1. Registrar a un cliente\n2. Registrar a un vendedor\n3. Registrar un vehiculo\n4. Salir\nSelecciona una opcion: ");
+            opcion = scanner.nextInt();
+
+            switch(opcion){
+                case 1:
+                    DatosCliente();
+                    break;
+                case 2:
+                    DatosVendedor();
+                    break;
+                case 3:
+                    DatosVehiculos();
+                    break;
+                case 4:
+                    System.exit(0);
+                    break;
+                default :
+                    break;
+            }
         }
     }
 
